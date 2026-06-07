@@ -1,0 +1,7 @@
+Logo intro | 5s
+Problem statement - show frustrated user | 7s
+Introduce the product | 13s
+Feature 1 - dashboard overview | 10s
+Feature 2 - integrations | 10s
+Testimonial / social proof | 10s
+CTA - sign up today | 5s

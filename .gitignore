@@ -1,0 +1,36 @@
+# Remotion explainer video project (separate concern, not part of the OSS panel)
+explainer/
+
+# Skills folder installed locally for video work
+.agents/
+
+# Brand assets folder (kept locally, not part of the public repo)
+StorySync/
+
+# Internal/dev-only files
+smoke_test*.jsx
+smoke_test_result.txt
+test_in_ae.jsx
+
+# Node
+node_modules/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build artifacts
+dist/
+out/
+skills-lock.json
