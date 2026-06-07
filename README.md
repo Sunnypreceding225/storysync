@@ -27,8 +27,6 @@ Setting up a new explainer/commercial project in After Effects is the same 30–
 
 StorySync collapses all of that into roughly **30 seconds**, then gets out of your way so you can animate.
 
-> *"I got tired of manually setting up projects in AE, so I built this."* — [Featured on r/AfterEffects](https://www.reddit.com/r/AfterEffects/) (9.2K views, 16 comments)
-
 ## What it does
 
 | Feature | What it replaces |
